@@ -6,7 +6,7 @@ Blink is such a quintessentially 90s web idea that has a wonderful origin story 
 
 ![-_-](https://github.com/Flowdeeps/blink/raw/master/assets/images/blink.gif)
 
-How? There are two ways of using it, either just the css3 animation or for some reason you want to use a more semantic span and the .blink class you can include the js. Be warned though, blink loads the entire body tree into memory, alters the string and then quirts it back into the body so any actions you're expecting to fire probably won't unless you reload them after blink.
+How? There are two ways of using it, either just the css3 animation or for some reason you want to use a more semantic span and the .blink class you can include the js. Be warned though, blink loads the entire body tree into memory, alters the string and then squirts it back into the body so any actions you're expecting to fire probably won't unless you reload them after blink.
 
 ## Set Up Dev Environment
 
@@ -20,9 +20,7 @@ $grunt build
 
 $grunt watch
 
-I use python's SimpleHTTPServer for most front-end
-projects which you can use by navigating to the folder
-holding your index and typing:
+I use python's SimpleHTTPServer for most front-end projects which you can use by navigating to the folder holding your index and typing:
 
 $python -m SimpleHTTPServer
 
