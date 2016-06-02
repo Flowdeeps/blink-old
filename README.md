@@ -1,6 +1,7 @@
 # Blink v1.0
 
-Why? I miss the blink tag. It's still in teh spec but nobody honours it so I'm adding a script and styles to bring it back to the fore.
+Why? I miss the blink tag. It's still in the spec but 
+nobody honours it so I'm adding a script and styles to bring it back to the fore.
 
 ## Installation
 
