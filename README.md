@@ -10,7 +10,7 @@ How? There are two ways of using it, either just the CSS3 animation or for some 
 
 ## Set Up Dev Environment
 
-Do I need to do this? Only if you want to extend on the project and send it back. Otherwise, dependent on how you want to implement it, just copy the [assets/css/main.css](https://github.com/Flowdeeps/blink/raw/master/assets/css/main.css) and/or the [assets/js/init.js](https://github.com/Flowdeeps/blink/raw/master/assets/js/init.js) or [assets/js/init.min.js](https://github.com/Flowdeeps/blink/raw/master/assets/js/init.min.js) files and have at it.
+Do I need to do this? Only if you want to extend on the project and send it back. Otherwise, dependent on how you want to implement it, just copy the [assets/css/main.css](https://github.com/Flowdeeps/blink/raw/master/assets/css/main.css) and the [assets/js/init.js](https://github.com/Flowdeeps/blink/raw/master/assets/js/init.js) or [assets/js/init.min.js](https://github.com/Flowdeeps/blink/raw/master/assets/js/init.min.js) files and have at it.
 
 Before either of the JS options will work you'll need to read and understand the ramifications of enabling them so open the files and make sure you do.
 
