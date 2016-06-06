@@ -6,7 +6,7 @@ Blink is such a quintessentially 90s web idea that has a wonderful origin story 
 
 ![-_-](https://github.com/Flowdeeps/blink/raw/master/assets/images/blink.gif)
 
-How? There are two ways of using it, either just the CSS3 animation or for some reason you want to use a more semantic span and the .blink class you can include the JS. You will probably need to fire any scripts that rely on DOM elements being in place after Blink has had a chance to rewrite the tree.
+How? There are two ways of using it, either just the CSS3 animation or for some reason you want to use a more semantic span and the .-_- (it's a blinking face) class you can include the JS. You will probably need to fire any scripts that rely on DOM elements being in place after Blink has had a chance to rewrite the tree.
 
 ## Set Up Dev Environment
 
