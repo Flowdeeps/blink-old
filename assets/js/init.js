@@ -1,26 +1,9 @@
 window.onload = function() {
 
-	// To get either of these to work you'll have to enable one of the functions below
-	// moral dilema
-	// addGoodBLink();
-	// addBadBlink();
-
-	var addBadBlink = function() {
-
-		var body = document.getElementsByTagName( "body" ),
-				bodyText = body[0].innerHTML,
-				blink1 = /<blink>/g,
-				blink2 = /<\/blink>/g;
-
-				bodyTextNew = bodyText.replace( blink1, "<span class=\"blink\">").replace( blink2, "</span>");
-
-				body[0].innerHTML = bodyTextNew;
-
-	}
-
 	var addGoodBlink = function() {
 
-		var blinks = document.getElementsByTagName( "blink" ),
+		var elem = document.getElementById( "good_js_blink" ),
+				blinks = elem.getElementsByTagName( "blink" ),
 				blinking = false;
 
 		setInterval (function() {
@@ -39,9 +22,21 @@ window.onload = function() {
 					blinks[i].classList.remove( "-_-" );
 				}
 			}
-			console.log(blinking);
 		}
 
-	};
+	}();
+
+	var addBadBlink = function() {
+
+		var elem = document.getElementById( "bad_js_blink" ),
+				elemText = elem.innerHTML;
+				blink1 = /<blink>/g,
+				blink2 = /<\/blink>/g;
+
+				elemTextNew = elemText.replace( blink1, "<span class=\"-_-\">").replace( blink2, "</span>");
+
+				elem.innerHTML = elemTextNew;
+
+	}();
 
 };

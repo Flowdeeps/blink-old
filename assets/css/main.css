@@ -1,1 +1,23 @@
-.blink,blink{animation:a 1s infinite}.-_-{opacity:0}@keyframes a{0%{opacity:1}49%{opacity:1}50%{opacity:0}to{opacity:0}}
+#css_blink blink,
+#bad_js_blink blink,
+#css_blink .-_-,
+#bad_js_blink .-_- {
+  animation: -_- 1s infinite;
+}
+.-_- {
+  opacity: 0;
+}
+@keyframes -_- {
+  0% {
+    opacity: 1;
+  }
+  49% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
